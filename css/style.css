@@ -11,3 +11,18 @@ html{
   --primary-color: #1f2630;
   --secondary-color: #f75921;
 }
+/* Navbar Section Start  */
+nav {
+  padding: 20px 0;
+}
+nav .logo-img{
+  height: 40px;
+}
+nav button{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Navbar Section End */
