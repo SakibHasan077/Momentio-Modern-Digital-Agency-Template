@@ -8,4 +8,6 @@ html{
 }
 :root{
   --main-font: 'Questrial', sans-serif;
+  --primary-color: #1f2630;
+  --secondary-color: #f75921;
 }
