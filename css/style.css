@@ -14,7 +14,14 @@ html{
 body{
   font-family: var(--main-font);
 }
-/* Navbar Section Start  */
+/* Header Section Start */
+header{
+  height: 520px;
+  background-image: url(../image/momentio.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* Navbar */
 nav {
   padding: 20px 0;
 }
@@ -28,4 +35,5 @@ nav button{
   font-size: 20px;
   font-weight: 600;
 }
-/* Navbar Section End */
+/* Navbar */
+/* Header Section End */
