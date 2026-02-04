@@ -11,6 +11,9 @@ html{
   --primary-color: #1f2630;
   --secondary-color: #f75921;
 }
+body{
+  font-family: var(--main-font);
+}
 /* Navbar Section Start  */
 nav {
   padding: 20px 0;
