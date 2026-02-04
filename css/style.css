@@ -36,4 +36,24 @@ nav button{
   font-weight: 600;
 }
 /* Navbar */
+/* Hero */
+.hero .content > div{
+  width: min-content;
+  background-color: rgba(0, 0, 0, 0.233);
+  padding: 0px 80px;
+}
+.hero .content h1{
+  font-size: 80px;
+}
+.hero .content span{
+  width: 550px;
+  height: 2px ;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.hero .content p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+/* Hero */
 /* Header Section End */
