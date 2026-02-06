@@ -20,6 +20,7 @@ header{
   background-image: url(../image/momentio.jpg);
   background-size: cover;
   background-position: center;
+  border-bottom: 3px solid var(--secondary-color);
 }
 /* Navbar */
 nav {
@@ -107,6 +108,7 @@ nav button{
   color: #fff;
   padding: 40px 0;
   font-size: 15px;
+  border-top: 3px solid var(--secondary-color);
 }
 /* About Section End */
 /* Media Query */
