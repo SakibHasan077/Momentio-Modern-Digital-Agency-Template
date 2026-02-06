@@ -84,7 +84,7 @@ nav button{
 .first-about .horizontal-line{
   display: block;
   height: 2px;
-  width: 500px;
+  width: 31.25rem;
   background-color: var(--secondary-color);
   margin-bottom: 40px;
 }
@@ -130,6 +130,23 @@ nav button{
     padding: 14px 45px;
   }
 /* Hero */
+/* About */
+.first-about img{
+  height: 90px;
+  margin-bottom: 35px;
+}
+.first-about h2{
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.first-about .horizontal-line{
+  width: 31rem;
+  margin-bottom: 35px;
+}
+.first-about .para-1{
+  margin-bottom: 80px;
+}
+/* About*/
 }
 @media (max-width: 768px){
   /* Hero */
@@ -149,6 +166,27 @@ nav button{
     padding: 13px 40px;
   }
 /* Hero */
+/* About */
+.first-about img{
+  height: 80px;
+  margin-bottom: 30px;
+}
+.first-about h2{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.first-about .horizontal-line{
+  width: 31rem;
+  margin-bottom: 30px;
+}
+.first-about .para-1{
+  margin-bottom: 70px;
+  font-size: 19px;
+}
+.first-about .para-2{
+  font-size: 19px;
+}
+/* About*/
 }
 @media (max-width: 576px){
   /* Hero */
@@ -169,4 +207,28 @@ nav button{
     padding: 10px 35px;
   }
 /* Hero */
+/* About */
+.first-about img{
+  height: 75px;
+  margin-bottom: 28px;
+}
+.first-about h2{
+  font-size: 43px;
+  margin-bottom: 28px;
+}
+.first-about .horizontal-line{
+  width: 31rem;
+  margin-bottom: 28px;
+}
+.first-about .para-1{
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+.first-about .para-2{
+  font-size: 18px;
+}
+.first-about .horizontal-line{
+  width: 25rem;
+}
+/* About*/
 }
