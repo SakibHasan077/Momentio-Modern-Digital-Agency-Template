@@ -66,6 +66,41 @@ nav button{
 }
 /* Hero */
 /* Header Section End */
+/* About Section Start */
+.about{
+  padding: 100px 0;;
+}
+.first-about{
+  color: var(--primary-color);
+}
+.first-about img{
+  height: 100px;
+  margin-bottom: 40px;
+}
+.first-about h2{
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+.first-about .horizontal-line{
+  display: block;
+  height: 2px;
+  width: 500px;
+  background-color: var(--secondary-color);
+  margin-bottom: 40px;
+}
+.first-about .para-1{
+  font-size: 21px;
+  margin-bottom: 100px;
+}
+.first-about .para-1 span{
+  color: var(--secondary-color);
+}
+.first-about .para-2{
+  font-size: 21px;
+  color: var(--secondary-color);
+  letter-spacing: 1.5px;
+}
+/* About Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
