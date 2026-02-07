@@ -111,6 +111,14 @@ nav button{
   border-top: 3px solid var(--secondary-color);
 }
 /* About Section End */
+/* Service Section Start */
+.service-container{
+  background-image: url(../image/service-bg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  min-height: 30rem;
+}
+/* Service Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
