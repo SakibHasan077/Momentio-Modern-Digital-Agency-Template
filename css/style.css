@@ -163,6 +163,15 @@ nav button{
   font-size: 15px;
 }
 /* Service Section End */
+/* Qutoe Section Start */
+.qutoe{
+  min-height: 300px;
+  background-image: url(../image/quote-section\ \(1\).png);
+  background-size: 100% 100%;
+  background-position: center;
+  filter: brightness(50%);
+}
+/* Qutoe Section End  */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
