@@ -118,6 +118,50 @@ nav button{
   background-position: center;
   min-height: 30rem;
 }
+.service-container img{
+  background-color: var(--primary-color);
+  padding: 30px;
+  border-radius: 50%;
+}
+.service-column-1,.service-column-2,.service-column-3,.service-column-4{
+  position: relative;
+  padding: 20px;
+}
+.service .sub-row-1::after,.sub-row-2::after{
+  content: "";
+  width: 520px;
+  background-color: #f75921;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.service .sub-row-1::before,.sub-row-3::before{
+  content: "";
+  width: 2px;
+  background-color: #f75921;
+  height: 160px;
+  position: absolute;
+  top: 18px;
+  right: 14px;
+}
+.service .sub-row-1::before{
+  top: 5px;
+}
+.service h3{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+.service .sub-row-2 h3, .sub-row-4 h3{
+  text-align: right;
+}
+.service .sub-row-2 p, .sub-row-4 p{
+  text-align: right;
+}
+.service p{
+  font-size: 15px;
+}
 /* Service Section End */
 /* Media Query */
 @media (max-width: 1200px) {
