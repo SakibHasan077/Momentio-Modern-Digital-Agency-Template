@@ -11,6 +11,7 @@ html{
   --primary-color: #1f2630;
   --secondary-color: #f75921;
   --nav-bg:rgba(0, 0, 0, 0.233);
+  --white: #fff;
 }
 body{
   font-family: var(--main-font);
@@ -34,7 +35,7 @@ nav .logo-img{
 nav button{
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: var(--white);
   font-size: 20px;
   font-weight: 600;
 }
@@ -42,7 +43,7 @@ nav button{
 /* Hero */
 .hero .content > div{
   width: min-content;
-  background-color: rgba(0, 0, 0, 0.233);
+  background-color: var(--nav-bg);
   padding: 0px 80px;
 }
 .hero .content h1{
@@ -106,7 +107,7 @@ nav button{
 .second-about{
   background-color: var(--primary-color);
   height: 100px;
-  color: #fff;
+  color: var(--white);
   padding: 40px 0;
   font-size: 15px;
   border-top: 3px solid var(--secondary-color);
@@ -131,7 +132,7 @@ nav button{
 .service .sub-row-1::after,.sub-row-2::after{
   content: "";
   width: 520px;
-  background-color: #f75921;
+  background-color: var(--secondary-color);
   height: 2px;
   position: absolute;
   bottom: 0;
@@ -140,7 +141,7 @@ nav button{
 .service .sub-row-1::before,.sub-row-3::before{
   content: "";
   width: 2px;
-  background-color: #f75921;
+  background-color: var(--secondary-color);
   height: 160px;
   position: absolute;
   top: 18px;
