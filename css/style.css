@@ -171,6 +171,17 @@ nav button{
   background-position: center;
   filter: brightness(50%);
 }
+.qutoe span{
+  width: 31.25rem;
+  height: 10px;
+  background-color: #fff;
+  display: block;
+}
+.qutoe p{
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin-block: 40px;
+}
 /* Qutoe Section End  */
 /* Media Query */
 @media (max-width: 1200px) {
