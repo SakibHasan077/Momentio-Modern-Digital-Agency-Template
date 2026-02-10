@@ -185,6 +185,18 @@ nav button{
   margin-block: 40px;
 }
 /* Qutoe Section End  */
+/* Work and Portfolio Section Start */
+.work-portfolio{
+  margin-top: 100px;
+}
+.work-portfolio-container{
+  height: 100%;
+  min-height: 81.25rem;
+  background-image: url(../image/work-portfolio.png);
+  background-position: center;
+  background-size: 100% 100%;
+}
+/* Work and Portfolio Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
