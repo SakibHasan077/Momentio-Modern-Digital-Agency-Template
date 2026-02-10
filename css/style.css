@@ -265,10 +265,15 @@ nav button{
     padding: 20px;
   }
 /* Service */
+/* Qutoe */
+.qutoe p{
+  font-size: 27px;
+}
+/* Qutoe */
 /* Work Portfolio */
   .work-portfolio-container{
     background-size: cover;
-    
+
   }
 /* Work Portfolio */
 }
@@ -334,6 +339,14 @@ nav button{
     margin-top: 50px;
   }
 /* Service */
+/* Qutoe */
+.qutoe{
+  margin-top: 50px;
+}
+.qutoe p{
+  font-size: 24px;
+}
+/* Qutoe */
 }
 @media (max-width: 576px){
   /* Hero */
@@ -386,4 +399,11 @@ nav button{
     width: 95%;
   }
 /* service */
+/* Qutoe */
+.qutoe span{
+  width: 100%;
+}
+.qutoe p{
+  font-size: 21px;
+}
 }
