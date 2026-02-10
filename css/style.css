@@ -188,6 +188,7 @@ nav button{
 /* Work and Portfolio Section Start */
 .work-portfolio{
   margin-top: 100px;
+  position: relative;
 }
 .work-portfolio-container{
   height: 100%;
@@ -196,6 +197,27 @@ nav button{
   background-position: center;
   background-size: 100% 100%;
 }
+/* Work section */
+.work-section .title .first-para{
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+.work-section .title span{
+  position: absolute;
+  width: 100%;
+  top: 60px;
+  left: 0;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+.work-section .title .second-para{
+  color: var(--primary-color);
+  font-size: 15px;
+  margin-top: 82px;
+  text-align: center;
+}
+/* Work section */
 /* Work and Portfolio Section End */
 /* Media Query */
 @media (max-width: 1200px) {
