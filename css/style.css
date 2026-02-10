@@ -265,6 +265,12 @@ nav button{
     padding: 20px;
   }
 /* Service */
+/* Work Portfolio */
+  .work-portfolio-container{
+    background-size: cover;
+    
+  }
+/* Work Portfolio */
 }
 @media (max-width: 768px){
   /* Hero */
