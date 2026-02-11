@@ -217,6 +217,30 @@ nav button{
   margin-top: 82px;
   text-align: center;
 }
+.reason{
+  margin-top: 100px;
+}
+.work-section .reason-div{
+  background-color: var(--primary-color);
+  color: var(--white);
+  position: relative;
+  min-height: 200px;
+  min-width: 220px;
+  overflow: hidden;
+}
+.reason-div span{
+  font-size: 90px;
+  position: absolute;
+  top: -48px;
+  left: -20px;
+}
+.reason-div .content{
+  padding: 80px 22px 35px;
+  font-size: 15px;
+}
+.work-section .first-reason{
+  background-color: var(--secondary-color);
+}
 /* Work section */
 /* Work and Portfolio Section End */
 /* Media Query */
