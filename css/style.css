@@ -261,6 +261,9 @@ nav button{
   height: 2px;
   background-color: var(--secondary-color);
 }
+.portfolio-grid{
+  margin-top: 100px;
+}
 /* Portfolio */
 /* Work and Portfolio Section End */
 /* Media Query */
