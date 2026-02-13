@@ -272,6 +272,27 @@ nav button{
   height: 100%;
   object-fit: cover;
 }
+.first-portfolio-col{
+  position: relative;
+}
+.first-portfolio-col span{
+  position: absolute;
+  width: 92%;
+  height: 100%;
+  background-color: #f75a21a1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.first-portfolio-col .icons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  gap: 20px;
+  height: 20px;
+}
 /* Portfolio */
 /* Work and Portfolio Section End */
 /* Media Query */
