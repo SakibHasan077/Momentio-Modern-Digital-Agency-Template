@@ -312,6 +312,11 @@ nav button{
     left: 10px;
   }
 /* Service */
+/* Work and Portfolio */
+  .first-portfolio-col span{
+    width: 90%;
+  }
+/* Work and Portfolio */
 }
 @media (max-width: 992px){
   /* Hero */
@@ -445,6 +450,11 @@ nav button{
   font-size: 24px;
 }
 /* Qutoe */
+/* Work and Portfolio */
+  .first-portfolio-col span{
+    width: 92%;
+  }
+/* Work and Portfolio */
 }
 @media (max-width: 576px){
   /* Hero */
@@ -504,4 +514,9 @@ nav button{
 .qutoe p{
   font-size: 21px;
 }
+/* Work and Portfolio */
+  .first-portfolio-col span{
+    width: 95%;
+  }
+/* Work and Portfolio */
 }
