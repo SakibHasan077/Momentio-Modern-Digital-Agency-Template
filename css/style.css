@@ -374,6 +374,9 @@ nav button{
 }
 /* Qutoe */
 /* Work Portfolio */
+  .portfolio-section .header span{
+    top: 950px;
+  }
   .work-portfolio-container{
     background-size: cover;
 
@@ -515,8 +518,16 @@ nav button{
   font-size: 21px;
 }
 /* Work and Portfolio */
+  .portfolio-section .header span{
+    top: 1000px;
+  }
   .first-portfolio-col span{
     width: 95%;
   }
 /* Work and Portfolio */
+}
+@media (max-width:450px) {
+  .portfolio-section .header span{
+    top: 1400px;
+  }
 }
