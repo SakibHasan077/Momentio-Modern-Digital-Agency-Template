@@ -293,6 +293,16 @@ nav button{
   gap: 20px;
   height: 20px;
 }
+.portfolio-grid .dots div{
+  height: 10px;
+  width: 10px;
+  background-color: #c9cfd0;
+  margin-left: 2px;
+  border-radius: 50%;
+}
+.portfolio-grid .dots div:first-child{
+  background-color: var(--secondary-color);
+}
 /* Portfolio */
 /* Work and Portfolio Section End */
 /* Media Query */
