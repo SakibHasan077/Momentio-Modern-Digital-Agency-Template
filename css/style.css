@@ -305,6 +305,13 @@ nav button{
 }
 /* Portfolio */
 /* Work and Portfolio Section End */
+/* Advertise Section Start */
+.Advertise{
+  min-height: 500px;
+  background-color: var(--primary-color);
+  margin-top: 100px;
+}
+/* Advertise Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
