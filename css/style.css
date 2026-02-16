@@ -333,6 +333,40 @@ nav button{
   z-index: 277777777;
   height: 180px;
 }
+/* Advertise-content */
+.Advertise-content{
+  margin-top: 75px;
+}
+.Advertise-content .first-para{
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+.Advertise-content span{
+  display: block;
+  width: 27rem;
+  height: 2px;
+  background-color: var(--secondary-color);
+  margin: 20px 0 30px;
+}
+.Advertise-content h2{
+  font-size: 30px;
+}
+.Advertise-content .second-para{
+  color: #70788c;
+  margin-top: 30px;
+  font-size: 15px;
+}
+.Advertise-content button{
+  background-color: var(--secondary-color);
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 15px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: var(--white);
+}
+/* Advertise-content */
 /* Advertise Section End */
 /* Media Query */
 @media (max-width: 1200px) {
