@@ -310,6 +310,28 @@ nav button{
   min-height: 500px;
   background-color: var(--primary-color);
   margin-top: 100px;
+  position: relative;
+}
+.Advertise .dots-img{
+  height: 100%;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Advertise .browser-1{
+  position:absolute;
+  bottom: 0;
+  left: 550px;
+  z-index: 377777777;
+  height: 240px;
+}
+.Advertise .browser-2{
+  position:absolute;
+  bottom: 0;
+  left: 460px;
+  z-index: 277777777;
+  height: 180px;
 }
 /* Advertise Section End */
 /* Media Query */
