@@ -471,6 +471,11 @@ nav button{
     left: 400px;
     height: 150px;
   }
+/* Advertise-content */
+  .Advertise-content{
+    margin-top: 0px;
+  }
+/* Advertise-content */
 /* Advertise Section  */
 }
 @media (max-width: 768px){
@@ -561,6 +566,19 @@ nav button{
     transform: translateX(-50%);
     height: 150px;
   }
+  /* Advertise-content */
+  .Advertise-content{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+  .Advertise-content span{
+    margin: 20px 0 30px 50px;
+  }
+  .Advertise-content h2{
+    font-size: 27px;
+  }
+/* Advertise-content */
 /* Advertise Section  */
 }
 @media (max-width: 576px){
@@ -642,6 +660,20 @@ nav button{
     transform: translateX(-50%);
     height: 150px;
   }
+  /* Advertise-content */
+  .Advertise-content{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+  }
+  .Advertise-content span{
+    width: 100%;
+    margin: 20px 0 30px 0;
+  }
+  .Advertise-content h2{
+    font-size: 25px;
+  }
+/* Advertise-content */
 /* Advertise Section  */
 }
 @media (max-width:450px) {
