@@ -311,6 +311,7 @@ nav button{
   background-color: var(--primary-color);
   margin-top: 100px;
   position: relative;
+  margin-bottom: 100px;
 }
 .Advertise .dots-img{
   height: 100%;
@@ -455,6 +456,22 @@ nav button{
 
   }
 /* Work Portfolio */
+/* Advertise Section  */
+  .Advertise{
+    min-height: 400px;
+  }
+  .Advertise .dots-img{
+    display: none;
+  }
+  .Advertise .browser-1{
+    left: 450px;
+    height: 200px;
+  }
+  .Advertise .browser-2{
+    left: 400px;
+    height: 150px;
+  }
+/* Advertise Section  */
 }
 @media (max-width: 768px){
   /* Hero */
@@ -531,6 +548,20 @@ nav button{
     width: 92%;
   }
 /* Work and Portfolio */
+/* Advertise Section  */
+  .Advertise .browser-1{
+    left: 60%;
+    transform: translateX(-50%);
+    height: 200px;
+    top: 0;
+  }
+  .Advertise .browser-2{
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+  }
+/* Advertise Section  */
 }
 @media (max-width: 576px){
   /* Hero */
@@ -598,6 +629,20 @@ nav button{
     width: 95%;
   }
 /* Work and Portfolio */
+/* Advertise Section  */
+  .Advertise .browser-1{
+    left: 60%;
+    transform: translateX(-50%);
+    height: 200px;
+    top: 0;
+  }
+  .Advertise .browser-2{
+    top: 50px;
+    left: 45%;
+    transform: translateX(-50%);
+    height: 150px;
+  }
+/* Advertise Section  */
 }
 @media (max-width:450px) {
   .portfolio-section .header span{
