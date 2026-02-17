@@ -369,6 +369,28 @@ nav button{
 }
 /* Advertise-content */
 /* Advertise Section End */
+/* About us Section Start */
+.about-us {
+  position: relative;
+}
+.about-us .titel-section .sub-head{
+  font-size: 25px;
+  color: var(--secondary-color);
+}
+.about-us .titel-section span{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+.about-us-para{
+  color: #44495e;
+  font-size: 15px;
+  margin-top: 85px;
+}
+/* About us Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
