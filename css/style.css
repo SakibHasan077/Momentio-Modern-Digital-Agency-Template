@@ -425,6 +425,25 @@ nav button{
 .about-us .team-section .team-col-1 .content .para{
   margin-top: 190px;
 }
+/* Team-col-2 */
+.about-us .team-section .team-col-2 .team-2-child{
+  position: relative;
+}
+.about-us .team-section .team-col-2 img{
+  width: 100%;
+  border-top: 4px solid var(--secondary-color);
+}
+.about-us .team-section .team-col-2 .team-2-child .content-section{
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.404);
+  width: 80%;
+  margin-left: 11px;
+  color: var(--white);
+  font-size: 13px;
+}
+/* Team-col-2 */
 /* Team section */
 /* About us Section End */
 /* Media Query */
