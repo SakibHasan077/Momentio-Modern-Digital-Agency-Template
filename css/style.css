@@ -449,6 +449,11 @@ nav button{
     width: 90%;
   }
 /* Work and Portfolio */
+/* About-us section */
+.about-us .team-section .team-col-1 .image-section {
+  margin-left: 0px;
+}
+/* About-us section */
 }
 @media (max-width: 992px){
   /* Hero */
@@ -535,6 +540,31 @@ nav button{
   }
 /* Advertise-content */
 /* Advertise Section  */
+/*About-us section*/
+.about-us .team-section{
+  margin-top: 0px;;
+}
+.about-us .team-section .team-col-1{
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-us .team-section .team-col-1 .image-section img{
+  height: 610px;
+  width: auto;
+}
+.about-us .team-section .team-col-1 .content .heading{
+  top:510px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.about-us .team-section .team-col-1 .content .para{
+  margin-top: 190px;
+  margin-left: 38px;
+}
+/*About-us section*/
 }
 @media (max-width: 768px){
   /* Hero */
@@ -638,6 +668,19 @@ nav button{
   }
 /* Advertise-content */
 /* Advertise Section  */
+/*About-us section*/
+.about-us .team-section .team-col-1 .image-section img{
+  height: 500px;
+}
+.about-us .team-section .team-col-1 .content .heading{
+  top:410px;
+  width: 80%;
+}
+.about-us .team-section .team-col-1 .content .para{
+  margin-top: 190px;
+  margin-left: 0px;
+}
+/*About-us section*/
 }
 @media (max-width: 576px){
   /* Hero */
@@ -733,6 +776,13 @@ nav button{
   }
 /* Advertise-content */
 /* Advertise Section  */
+/*About-us section*/
+.about-us .team-section .team-col-1 .content .heading{
+  top:410px;
+  width:95%;
+}
+
+/*About-us section*/
 }
 @media (max-width:450px) {
   .portfolio-section .header span{
