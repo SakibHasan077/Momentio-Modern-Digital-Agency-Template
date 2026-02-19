@@ -583,6 +583,11 @@ nav button{
   margin-top: 190px;
   margin-left: 38px;
 }
+.about-us .team-section .team-col-2 .team-2-child{
+  flex-basis: 40%;
+  max-width: 360px;
+  margin-bottom: 50px;
+}
 /*About-us section*/
 }
 @media (max-width: 768px){
@@ -699,6 +704,11 @@ nav button{
   margin-top: 190px;
   margin-left: 0px;
 }
+.about-us .team-section .team-col-2 .team-2-child{
+  flex-basis: 50%;
+  max-width: 500px;
+  margin: auto;
+}
 /*About-us section*/
 }
 @media (max-width: 576px){
@@ -800,7 +810,11 @@ nav button{
   top:410px;
   width:95%;
 }
-
+.about-us .team-section .team-col-2 .team-2-child{
+  flex-basis: 50%;
+  max-width: 400px;
+  margin: auto;
+}
 /*About-us section*/
 }
 @media (max-width:450px) {
