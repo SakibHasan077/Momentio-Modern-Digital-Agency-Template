@@ -464,6 +464,42 @@ nav button{
   height: 2px;
   background-color: var(--secondary-color);
 }
+/* skill-row */
+.skill-row{
+  margin-top: 110px;
+}
+.skill-row .outer-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill-row .inner-circle {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+.skill-row .html5 {
+  background: conic-gradient(#ff5722 324deg, #2c3e50 0deg);
+}
+.skill-row .javascript {
+  background: conic-gradient(#ff5722 288deg, #2c3e50 0deg);
+}
+
+.skill-row .php {
+  background: conic-gradient(#ff5722 252deg, #2c3e50 0deg);
+}
+.skill-row .adobe {
+  background: conic-gradient(#ff5722 340deg, #2c3e50 0deg);
+}
 /* Skill Section End */
 /* Media Query */
 @media (max-width: 1200px) {
