@@ -488,17 +488,17 @@ nav button{
   font-size: 14px;
 }
 .skill-row .html5 {
-  background: conic-gradient(#ff5722 324deg, #2c3e50 0deg);
+  background: conic-gradient( #2c3e50 36deg, #ff5722 -324deg);
 }
 .skill-row .javascript {
-  background: conic-gradient(#ff5722 288deg, #2c3e50 0deg);
+  background: conic-gradient( #2c3e50 72deg, #ff5722 -288deg);
 }
 
 .skill-row .php {
-  background: conic-gradient(#ff5722 252deg, #2c3e50 0deg);
+  background: conic-gradient( #2c3e50 108deg, #ff5722 -252deg);
 }
 .skill-row .adobe {
-  background: conic-gradient(#ff5722 340deg, #2c3e50 0deg);
+  background: conic-gradient( #2c3e50 20deg, #ff5722 -340deg);
 }
 /* Skill Section End */
 /* Media Query */
