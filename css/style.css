@@ -446,6 +446,25 @@ nav button{
 /* Team-col-2 */
 /* Team section */
 /* About us Section End */
+/* Skill Section Start */
+.skill{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.skill .heading p{
+  color: #202835;
+  font-size: 20px;
+}
+.skill .heading span{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+/* Skill Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
