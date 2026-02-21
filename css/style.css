@@ -501,6 +501,29 @@ nav button{
   background: conic-gradient( #2c3e50 20deg, #ff5722 -340deg);
 }
 /* Skill Section End */
+/* desc section start */
+.desc{
+  background-color: var(--secondary-color);
+  font-size: 25px;
+  position: relative;
+  min-height: 125px;
+  color: var(--white);
+  margin-bottom: 40px;
+}
+.desc img{
+  height: 30px;
+  position: absolute;
+  /* top: 0; */
+}
+.desc .first-img{
+  right: 350px;
+  bottom: 20px;
+}
+.desc .second-img{
+  left: 350px;
+  top: 20px;
+}
+/* desc section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
