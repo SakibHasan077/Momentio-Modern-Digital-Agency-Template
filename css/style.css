@@ -519,11 +519,11 @@ nav button{
   /* top: 0; */
 }
 .desc .first-img{
-  right: 350px;
+  right: 310px;
   bottom: 20px;
 }
 .desc .second-img{
-  left: 350px;
+  left: 290px;
   top: 20px;
 }
 /* desc section End */
@@ -570,6 +570,17 @@ nav button{
   margin-left: 0px;
 }
 /* About-us section */
+/* Desc section */
+.desc{
+  font-size: 22px;
+}
+.desc .first-img{
+  right: 230px;
+}
+.desc .second-img{
+  left: 218px;
+}
+/* Desc section */
 }
 @media (max-width: 992px){
   /* Hero */
@@ -712,6 +723,17 @@ nav button{
   transform: translateX(-50%);
 }
 /* Client Section */
+/* Desc section */
+.desc{
+  font-size: 20px;
+}
+.desc .first-img{
+  right: 140px;
+}
+.desc .second-img{
+  left: 125px;
+}
+/* Desc section */
 }
 @media (max-width: 768px){
   /* Hero */
@@ -838,6 +860,17 @@ nav button{
   grid-template-columns: repeat(2, 1fr);
 
 }
+/* Desc Section */
+.desc{
+  font-size: 19px;
+}
+.desc .first-img{
+  right: 60px;
+}
+.desc .second-img{
+  left: 40px;
+}
+/* Desc section */
 }
 @media (max-width: 576px){
   /* Hero */
@@ -949,6 +982,21 @@ nav button{
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
 }
+/* Desc Section */
+.desc{
+  font-size: 19px;
+}
+.desc img{
+  height: 20px;
+}
+.desc .first-img{
+  right: 20px;
+  margin-bottom: 20px;
+}
+.desc .second-img{
+  left: 10px;
+}
+/* Desc section */
 }
 @media (max-width:450px) {
   .portfolio-section .header span{
