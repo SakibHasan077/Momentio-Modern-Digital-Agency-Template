@@ -467,6 +467,10 @@ nav button{
 /* skill-row */
 .skill-row{
   margin-top: 110px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
 }
 .skill-row .outer-circle {
   width: 150px;
@@ -682,6 +686,21 @@ nav button{
   margin-bottom: 50px;
 }
 /*About-us section*/
+/* Skill Section */
+.skill{
+  margin-bottom: 30px;
+}
+.skill-row{
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+.skill-col{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Skill Section */
 }
 @media (max-width: 768px){
   /* Hero */
@@ -909,6 +928,11 @@ nav button{
   margin: auto;
 }
 /*About-us section*/
+/* Skill Section */
+.skill-row{
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+}
 }
 @media (max-width:450px) {
   .portfolio-section .header span{
