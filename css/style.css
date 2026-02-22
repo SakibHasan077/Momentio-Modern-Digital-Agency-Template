@@ -701,6 +701,17 @@ nav button{
   align-items: center;
 }
 /* Skill Section */
+/* Client Section */
+.client .client-col{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.client-col img{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Client Section */
 }
 @media (max-width: 768px){
   /* Hero */
@@ -822,6 +833,11 @@ nav button{
   margin: auto;
 }
 /*About-us section*/
+.client .client-col{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
 }
 @media (max-width: 576px){
   /* Hero */
