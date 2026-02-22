@@ -508,7 +508,6 @@ nav button{
   position: relative;
   min-height: 125px;
   color: var(--white);
-  margin-bottom: 40px;
 }
 .desc img{
   height: 30px;
@@ -524,6 +523,22 @@ nav button{
   top: 20px;
 }
 /* desc section End */
+/* Client section start */
+.client{
+  background-color: var(--primary-color);
+  min-height: 320px;
+  padding: 95px 0 0px 0;
+}
+.client .client-col{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+.client-col img{
+  margin-bottom: 70px;
+}
+/* Client section start */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
