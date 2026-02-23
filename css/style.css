@@ -557,6 +557,7 @@ nav button{
   background-color: var(--secondary-color);
   position: absolute;
   top: 45px;
+  left: 0;
   margin-bottom: 50px;
 }
 .Pricing-table .title p{
