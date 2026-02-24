@@ -810,6 +810,14 @@ nav button{
   left: 125px;
 }
 /* Desc section */
+/* Pricing section */
+.pricing-table-row{
+  grid-template-columns: repeat(2, 1fr);
+}
+.pricing-tabel-col{
+  margin-bottom: 50px;
+}
+/* Pricing section */
 }
 @media (max-width: 768px){
   /* Hero */
@@ -947,6 +955,11 @@ nav button{
   left: 40px;
 }
 /* Desc section */
+/* Pricing section */
+.pricing-table-row{
+  grid-template-columns: 450px;
+  justify-content: center;
+}
 }
 @media (max-width: 576px){
   /* Hero */
