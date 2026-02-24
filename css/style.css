@@ -550,6 +550,7 @@ nav button{
 }
 .Pricing-table .title h2{
   font-size: 25px;
+  color: var(--secondary-color);
 }
 .Pricing-table .title span{
   width: 100%;
