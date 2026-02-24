@@ -565,6 +565,58 @@ nav button{
   margin-top: 50px;
   text-align: center;
 }
+.pricing-table-row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.pricing-table-row .head{
+  background-color: var(--primary-color);
+  padding-bottom: 20px;
+  border-bottom: 3px solid var(--secondary-color);
+}
+.pricing-table-row .head h3{
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+.pricing-table-row .head span{
+  display: block;
+  width: 180px;
+  height: 1px;
+  background-color: var(--white);
+  margin: auto;
+}
+.pricing-table-row .head .first-para{
+  color: var(--white);
+  margin-top: 10px;
+}
+.pricing-table-row .head .second-para{
+  color: var(--white);
+  margin-top: 20px 0 0 0;
+  font-size: 40px;
+}
+.pricing-table-row .body {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding-top: 40px;
+  line-height: 2.5;
+
+}
+.pricing-table-row .body p{
+  padding-bottom: 20px;
+}
+.pricing-table-row .body button{
+  background-color: var(--secondary-color);
+  margin-bottom: 20px;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+}
 /* Pricing Table End */
 /* Media Query */
 @media (max-width: 1200px) {
