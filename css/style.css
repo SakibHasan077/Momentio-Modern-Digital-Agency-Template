@@ -547,6 +547,7 @@ nav button{
 .Pricing-table{
   margin-top: 100px;
   position: relative;
+  background-image: url(../image/work-portfolio.png);
 }
 .Pricing-table .title h2{
   font-size: 25px;
