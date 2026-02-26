@@ -678,6 +678,66 @@ nav button{
   background-color: var(--secondary-color);
 }
 /* Contact section End */
+/* Office Card Section Start */
+.office-card {
+  background-color: #c9cfd0;
+  padding: 190px 0 110px 0;
+}
+.office-content{
+  background-color: var(--primary-color);
+  width: 40rem;
+  padding-left: 120px;
+  padding-top: 20px;
+}
+.office-title {
+  color: #ff5722;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.divider {
+  border: 0;
+  border-top: 1px solid #ff5722;
+  width: 100%;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.address p, .contact-info p {
+  font-size: 13px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+.contact-info {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.contact-info p {
+  text-transform: lowercase;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.social-links span {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #b2b2b2;
+}
+.social-links a {
+  color: #a0a6ad;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: #ffffff;
+}
+/* Office Card Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   /* Hero */
