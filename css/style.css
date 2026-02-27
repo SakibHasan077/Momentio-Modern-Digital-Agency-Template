@@ -1079,6 +1079,11 @@ nav button{
   grid-template-columns: 450px;
   justify-content: center;
 }
+/* Office card section */
+.office-content{
+  width: 100%;
+}
+/* Office card section */
 }
 @media (max-width: 576px){
   /* Hero */
